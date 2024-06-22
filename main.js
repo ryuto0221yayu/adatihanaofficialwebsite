@@ -1,12 +1,9 @@
 {
 const ham = document.querySelector('#js-hamburger');
-const nav = document.querySelector('#js-nav');
-
+const meu = document.querySelector('#clact');
 ham.addEventListener('click', function () {
-
   ham.classList.toggle('active');
-  nav.classList.toggle('active');
-
+  meu.classList.toggle('active');
 });
 }
 function scrollCallback(entries) {

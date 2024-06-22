@@ -6,6 +6,9 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  position: relative;
+}
 
 header {
   height: 72px;
@@ -69,6 +72,39 @@ header {
   top: 0;
 }
 
+.cl {
+  width: 100%;
+  height: 100vh;
+  background: #e8e3e3;
+  opacity: 0;
+  position: fixed;
+  padding-top: 72px;
+  top:0;
+  display: none;
+}
+
+.cl ul {
+  text-align: center;
+  margin-top: 72px;
+  
+}
+
+.m-name {
+  font-size: 32px;
+  color: #000;
+}
+
+.cl ul li + li {
+  margin-top: 64px;
+}
+
+.cl.active{
+  display: block;
+  color: #000;
+  opacity: .8;
+}
+
+
 
 /* ハンバーガーメニュークリック後のスタイル */
 .header__nav.active {
@@ -119,7 +155,7 @@ pre {
 
 /* album ================================================= */
 
-.album h1 {
+.single h1 {
   text-align: center;
   margin: 64px 0 16px;
 }
@@ -146,10 +182,26 @@ pre {
   margin: 0 auto;
 }
 
+/* schedule========================================== */
+
+.schedule {
+  margin: 160px auto 0;
+  width: 90%;
+  
+}
+
+.schedule h1 {
+  text-align: center;
+}
+
+.schedule ul li {
+  margin-top: 16px;
+}
+
 /* footer ============================================ */
 
 footer {
-  background: #8b8585;
+  background: #ebe5e5;
   margin-top: 64px;
 }
 
