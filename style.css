@@ -203,6 +203,7 @@ pre {
 footer {
   background: #ebe5e5;
   margin-top: 64px;
+  padding: 32px 0;
 }
 
 .f-icon {
@@ -220,4 +221,12 @@ footer {
 .f-s {
   text-align: center;
   padding-bottom: 16px;
+}
+
+.font-small {
+  font-weight: normal;
+}
+
+.font-place {
+  margin-left: 5%;
 }
