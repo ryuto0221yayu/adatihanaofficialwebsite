@@ -40,7 +40,7 @@ header {
 .scrolled {
   display: block;
   position: fixed;
-  top: 16px;
+  top: 40px;
   right: 16px;
 }
 
